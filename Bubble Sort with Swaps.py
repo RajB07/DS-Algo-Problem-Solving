@@ -1,5 +1,9 @@
 #!/bin/python3
 
+
+## LINK
+## https://www.hackerrank.com/challenges/ctci-bubble-sort/problem?h_l=interview&playlist_slugs%5B%5D=nutanix
+
 import math
 import os
 import random
