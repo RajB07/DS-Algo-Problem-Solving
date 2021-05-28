@@ -1,3 +1,7 @@
+// LINK
+// https://www.hackerrank.com/challenges/candies/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
