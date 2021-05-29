@@ -46,24 +46,27 @@ def print_singly_linked_list(node, sep, fptr):
 #     SinglyLinkedListNode next
 #
 #
+
+#IDEA : Finding the point where lists can be merged , say L1 = 1 2 3 4 5  L2 = 6 7 8 4 , now 4 is the common element and hence, it's the merge point in this case.  
 def findMergeNode(head1, head2):
-    ptr1 = head1
-    ptr2 = head2
-    count = 0
+    ptr1 = head1 #initialize L1 with ptr1
+    
+    ptr2 = head2 #initialize L1 with ptr2
+
     while True:
-        count+=1 
-        if(ptr1==ptr2):
+   
+        if(ptr1==ptr2):  #if both pointers are equal , it means we got the merge point 
             break
         ptr1 = ptr1.next
         ptr2 = ptr2.next
         
-        if(ptr1==None):
+        if(ptr1==None): 
             ptr1 = head1
         if(ptr2 == None):
             ptr2 = head2
    
-    return ptr2.data
-    
+    return ptr2.data   #since ptr1 and ptr2 are same, we can either print ptr1.data or  ptr2.data
+     
     
     
     
