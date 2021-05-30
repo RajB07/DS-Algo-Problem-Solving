@@ -19,7 +19,7 @@ def checkMagazine(magazine, note):
     counter1 = Counter(magazine)
     counter2 = Counter(note)    
     
-    if(counter2-counter1 == {}):
+    if(counter2-counter1 == {}): #run with examples, where len(counter1)>len(counter2)
         print("Yes")
     else:
         print("No")      
