@@ -1,4 +1,4 @@
-// LINK https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists/problem?h_l=interview&playlist_slugs%5B%5D=arcesium 
+// LINK https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists/
 // IMP is function findMergeNode rest is basic
 
 
