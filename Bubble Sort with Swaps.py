@@ -1,5 +1,5 @@
 #!/bin/python3
-
+#simple implementation of bubble sort with a very small modification. Main code part is of bubble sort original code
 
 ## LINK
 ## https://www.hackerrank.com/challenges/ctci-bubble-sort/problem?h_l=interview&playlist_slugs%5B%5D=nutanix
