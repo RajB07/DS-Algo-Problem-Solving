@@ -24,17 +24,12 @@ def matchingStrings(strings, queries):
     # Write your code here
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
     strings_count = int(input().strip())
-
     strings = []
-
     for _ in range(strings_count):
         strings_item = input()
         strings.append(strings_item)
-
     queries_count = int(input().strip())
-
     queries = []
 
     for _ in range(queries_count):
