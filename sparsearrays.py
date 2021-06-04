@@ -14,17 +14,14 @@ from collections import Counter
 #  2. STRING_ARRAY queries
 #
 
-def matchingStrings(strings, queries):
-    
+def matchingStrings(strings, queries):  
     s = Counter(strings) #Using counter function which counts the number of occurences of a particular element in form of dictionary. 
     out = []  #List to store result
     for i in queries:  
-        out.append(s[i])  
-    
+        out.append(s[i])      
     return out
     
     # Write your code here
-
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
