@@ -17,10 +17,10 @@ from collections import Counter
 
 def matchingStrings(strings, queries):
     
-    s = Counter(strings)
-    out = []
-    for i in queries:
-        out.append(s[i])
+    s = Counter(strings) #Using counter function which counts the number of occurences of a particular element in form of dictionary. 
+    out = []  #List to store result
+    for i in queries:  
+        out.append(s[i])  
     
     return out
     
