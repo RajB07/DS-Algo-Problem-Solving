@@ -1,7 +1,5 @@
 // LINK https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists/
 // IMP is function findMergeNode rest is basic
-
-
 #include <bits/stdc++.h>
 
 using namespace std;
