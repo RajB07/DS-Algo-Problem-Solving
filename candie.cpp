@@ -1,5 +1,6 @@
 // LINK
 // https://www.hackerrank.com/challenges/candies/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -14,7 +15,6 @@ long candies(int n, vector<int> arr)
         if (arr[i-1] > arr[i] && numOfCandies[i-1] <= numOfCandies[i])
             numOfCandies[i-1]=numOfCandies[i]+1;
     for(int i=0 ; i <n ; i++) sum+=numOfCandies[i];
-    
     return sum;
 };
 
@@ -34,7 +34,6 @@ int main()
     }
 
     long result = candies(n, arr);
-
     cout << result;
     return 0;
 }
