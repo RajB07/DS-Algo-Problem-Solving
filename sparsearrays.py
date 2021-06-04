@@ -35,10 +35,7 @@ if __name__ == '__main__':
     for _ in range(queries_count):
         queries_item = input()
         queries.append(queries_item)
-
     res = matchingStrings(strings, queries)
-
     fptr.write('\n'.join(map(str, res)))
     fptr.write('\n')
-
     fptr.close()
