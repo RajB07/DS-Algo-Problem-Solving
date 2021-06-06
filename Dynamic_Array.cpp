@@ -1,10 +1,11 @@
+// LINK https://www.hackerrank.com/challenges/dynamic-array/problem
+
 #include <cmath>
 #include <cstdio>
 #include <vector>
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
 
 int main() {
     int N = 0, Q = 0;
