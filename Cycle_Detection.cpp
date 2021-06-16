@@ -86,3 +86,53 @@ bool has_cycle(SinglyLinkedListNode* head) {
 }
 
 int main()
+{
+    ofstream fout(getenv("OUTPUT_PATH"));
+
+    int tests;
+    cin >> tests;
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+    for (int tests_itr = 0; tests_itr < tests; tests_itr++) {
+        int index;
+        cin >> index;
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+        SinglyLinkedList* llist = new SinglyLinkedList();
+
+        int llist_count;
+        cin >> llist_count;
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+        for (int i = 0; i < llist_count; i++) {
+            int llist_item;
+            cin >> llist_item;
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+            llist->insert_node(llist_item);
+        }
+      
+      	SinglyLinkedListNode* extra = new SinglyLinkedListNode(-1);
+      	SinglyLinkedListNode* temp = llist->head;
+      
+      	for (int i = 0; i < llist_count; i++) {
+            if (i == index) {
+          		extra = temp;
+            }
+          	
+          	if (i != llist_count-1) {
+          		temp = temp->next;
+            }
+        }
+      
+      	temp->next = extra;
+
+        bool result = has_cycle(llist->head);
+
+        fout << result << "\n";
+    }
+
+    fout.close();
+
+    return 0;
+}
