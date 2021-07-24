@@ -3,7 +3,6 @@
 #include <iostream>
 
 using namespace std;
-
 int main(){
     int n;
     int p[2],q[2];
@@ -14,11 +13,6 @@ int main(){
         p[0] = q[0] -(p[0]-q[0]);
         p[1] = q[1] -(p[1]-q[1]);
         
-        cout << p[0] << " " << p[1] << endl;    
-        
+        cout << p[0] << " " << p[1] << endl;      
     }
-    
-    
-    
-    
 }
