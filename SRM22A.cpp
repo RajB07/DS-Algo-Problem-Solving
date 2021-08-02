@@ -1,3 +1,5 @@
+// http://arena.siesgst.ac.in/contest/SRM22/problem/SRM22A
+
 #include <iostream>
 using namespace std;
 
