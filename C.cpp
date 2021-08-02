@@ -1,4 +1,4 @@
-// http://arena.siesgst.ac.in/contest/SRM22/problem/SRM22B
+// http://arena.siesgst.ac.in/contest/SRM22/problem/SRM22C
 #include <iostream>
 using namespace std;
 
