@@ -1,3 +1,5 @@
+#PROBLEM LINK : http://arena.siesgst.ac.in/contest/SRM23/problem/SRM23A
+
 test_cases = int(input())
 
 for _ in range(test_cases):
