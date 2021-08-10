@@ -1,4 +1,4 @@
-#PROBLEM LINK : http://arena.siesgst.ac.in/contest/SRM23/problem/SRM23A
+#PROBLEM LINK: http://arena.siesgst.ac.in/contest/SRM23/problem/SRM23A
 
 test_cases = int(input())
 
