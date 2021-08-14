@@ -1,4 +1,4 @@
-
+#ADDED A SEARCH FUNCTION. WHICH CAN SEARCH IN A SORTED ROTATED ARRAY 
 nums = list(map(int,input().split()))
 low = nums[0]
 high = nums[-1]
