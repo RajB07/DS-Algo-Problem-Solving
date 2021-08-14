@@ -1,4 +1,5 @@
 #Beginner's practice question
+
 nums = list(map(int,input().split()))
 low = nums[0]
 high = nums[-1]
