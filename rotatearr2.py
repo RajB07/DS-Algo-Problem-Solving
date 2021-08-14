@@ -45,6 +45,7 @@ def search(nums,target):
                 high = mid-1
         return -1
 search(nums,target)
+
 print("Target element is {} ".format(int(target)))
         
 
