@@ -15,9 +15,6 @@ def breakingRecords(scores):
         if(scores[i] < minelt):
             minelt = scores[i]
             count_min+=1
-    # fin.append(count_max)
-    # fin.append(count_min)
-
     return count_max,count_min
  
 
