@@ -1,4 +1,5 @@
-#https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
+#PROBLEM LINK : https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
+
 def breakingRecords(scores):
     # Write your code here
     maxelt = scores[0]
