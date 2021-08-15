@@ -16,7 +16,6 @@ elif len(string.keys())==2:
         print("YES")
     else:
         print("NO")
-
 else:
     print("NO")
 
