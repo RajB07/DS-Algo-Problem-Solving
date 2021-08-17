@@ -1,3 +1,4 @@
+#COMMON ASKED PROBLEM 
 rows = int(input("enter rows"))
 cols = int(input("enter cols"))
 
