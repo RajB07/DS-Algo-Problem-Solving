@@ -1,8 +1,10 @@
 #COMMON ASKED PROBLEM 
+
 rows = int(input("enter rows"))
 cols = int(input("enter cols"))
-
 mat = []
+min = 0
+max = 0
 
 for row in range(rows):
     a= []
@@ -11,9 +13,6 @@ for row in range(rows):
     mat.append(a)
     
 print(mat)
-
-min = 0
-max = 0
 coord = [[0 for x in range(rows)] for y in range(cols)] 
 
 for i in range(0,rows):
