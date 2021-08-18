@@ -1,3 +1,5 @@
+#2D arrays beginners problem
+
 rows = int(input("enter rows"))
 cols = int(input("enter cols"))
 mat = []
