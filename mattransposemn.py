@@ -1,3 +1,5 @@
+#2D ARRAYS BEGINNER PROBLEM - TRANPOSE OF A MATRIX OF A*B Array
+
 rows = int(input("enter rows"))
 cols = int(input("enter cols"))
 mat = []
