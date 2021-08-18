@@ -1,4 +1,4 @@
-#2D arrays beginners problem
+#2D arrays beginners problem for square matrix only
 
 rows = int(input("enter rows"))
 cols = int(input("enter cols"))
