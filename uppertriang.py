@@ -1,3 +1,5 @@
+#Beginners questions on 2d arrays
+
 rows = int(input("Enter rows"))
 cols = int(input("enter cols"))
 
