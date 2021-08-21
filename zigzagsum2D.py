@@ -1,3 +1,5 @@
+#Find the zigzag sum of the 2D array. 
+
 rows = int(input("enter rows"))
 cols = int(input("enter cols"))
 mat = []
