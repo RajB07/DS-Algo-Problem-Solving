@@ -1,4 +1,4 @@
-#Find the zigzag sum of the 2D array. 
+#Find the zigzag sum of the 2D array. Common beginner problem for 2D Arrays. O(N^2) Approach. 
 
 rows = int(input("enter rows"))
 cols = int(input("enter cols"))
