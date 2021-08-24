@@ -1,3 +1,4 @@
+#converting any decimal number to any base
 n = int(input())
 ans = 0
 powers = 1
