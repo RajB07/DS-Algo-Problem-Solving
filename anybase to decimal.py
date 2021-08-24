@@ -1,3 +1,6 @@
+#convert any base number to decimal 
+#eg n = 1111 base = 2 ans = 15
+
 n = int(input())
 ans = 0
 powers = 1
